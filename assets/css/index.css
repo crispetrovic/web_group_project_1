@@ -1,7 +1,202 @@
 body {
   margin: 0;
+  width: 100%;
+}
+nav{
+    display: block;
+    margin-top: 20px;
+}
+nav>h1{
+    font-family: PT Sans Narrow Bold;
+    font-size: 1.5em;
+    color: #323232;
+    padding-left: 15px;
 }
 
+nav.p{
+    font-family: PT Sans Regular;
+    font-size: .9em;
+    color: #323232;
+}
+
+.splash{
+    height: auto;
+    max-width: 1250px;
+}
+
+
+h1{
+    font-family: PT Sans Narrow Bold;
+    font-size: 1.875em;
+    color: #323232;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+h2{
+    font-family: PT Sans Narrow Bold;
+    font-size: 1.5em;
+    color: #00897f;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: PT Serif Regular;
+    font-size: 1em;
+    line-height: 2em;
+    color: #323232;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+a{
+    font-family: PT Serif Bold;
+    font-size: 1em;
+    color: #f26522;
+}
+
+p{
+    font-family: PT Serif Regular;
+    font-size: .875em;
+    line-height: 1.75em;
+    color: #323232;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+}
+
+#left_box1{
+    margin-left: 250px;
+    width: 300px;
+    padding: 30px;
+    order: 1;
+    background-color: #eeeeee;
+
+
+}
+
+#right_box1{
+    margin-right: 250px;
+    width: 300px;
+    padding: 30px;
+    order: 2;
+    background-color: #eeeeee;
+}
+
+.boxes_title{
+    text-align: center;
+
+}
+
+#circle_cats{
+    height: auto;
+    max-width: 1250px;
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+/* #circ_cat1{
+    margin-right: 55px;
+}
+
+#circ_cat2{
+    margin-right: 55px;
+}
+*/
+
+
+#biz_info{
+    background-color: #eeeeee;
+
+}
+
+.wrapper2{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+
+.boxes_title2{
+    text-align: center;
+
+}
+
+#biz_info>h1{
+    padding-top: 80px;
+    padding-bottom: 45px;
+
+}
+
+#biz_hours>h3 {
+    font-family: PT Serif Regular;
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 2em;
+    color: #323232;
+
+}
+
+#biz_hours{
+    margin-left: 250px;
+    margin-bottom: 80px;
+    width: 300px;
+    padding: 30px;
+    order: 1;
+    background-color: #ffffff;
+
+}
+
+
+#biz_contact{
+    margin-right: 250px;
+    margin-bottom: 80px;
+    width: 300px;
+    padding: 30px;
+    order: 2;
+    background-color: #ffffff;
+}
+
+#biz_contact>h3 {
+    font-family: PT Serif Regular;
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 2em;
+    color: #323232;
+
+}
+
+
+.map{
+    height: auto;
+    width: 1250px;
+}
+
+footer{
+    background-color: #00897f;
+    padding-top: 62.5px;
+    padding-bottom: 62.5px;
+}
+
+
+footer>h1{
+    font-family: PT Sans Narrow Bold;
+    font-size: 1.25em;
+    color: #eeeeee;
+    text-align: center;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
