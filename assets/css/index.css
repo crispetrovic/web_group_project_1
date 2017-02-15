@@ -13,10 +13,11 @@ nav>h1{
     padding-left: 15px;
 }
 
-nav.p{
+.menu{
     font-family: PT Sans Regular;
     font-size: .9em;
     color: #323232;
+    float: right;
 }
 
 .splash{
@@ -46,14 +47,18 @@ h3{
     font-size: 1em;
     line-height: 2em;
     color: #323232;
+}
+
+#summary{
     margin-left: 250px;
     margin-right: 250px;
 }
 
-a{
+#address{
     font-family: PT Serif Bold;
     font-size: 1em;
     color: #f26522;
+    text-align: center;
 }
 
 p{
@@ -122,12 +127,6 @@ p{
 
 }
 
-.wrapper2{
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-
-}
 
 .boxes_title2{
     text-align: center;
@@ -140,16 +139,17 @@ p{
 
 }
 
-#biz_hours>h3 {
+
+#biz_hours>h3>span{
     font-family: PT Serif Regular;
     font-size: 1em;
     text-transform: uppercase;
     line-height: 2em;
     color: #323232;
-
 }
 
 #biz_hours{
+    display: block;
     margin-left: 250px;
     margin-bottom: 80px;
     width: 300px;
@@ -161,6 +161,7 @@ p{
 
 
 #biz_contact{
+    display: block;
     margin-right: 250px;
     margin-bottom: 80px;
     width: 300px;
@@ -169,13 +170,12 @@ p{
     background-color: #ffffff;
 }
 
-#biz_contact>h3 {
+#biz_contact>h3>span{
     font-family: PT Serif Regular;
     font-size: 1em;
     text-transform: uppercase;
     line-height: 2em;
     color: #323232;
-
 }
 
 
