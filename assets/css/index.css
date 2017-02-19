@@ -16,24 +16,19 @@ body {
 }
 
 .menu{
-    list-style: none;
+    float: right;
+    padding-top: 25px;
+
+}
+
+#nav_link{
+    width: 100px;
     display: inline;
-
-}
-
-#nav_about{
-    padding-right: 150px;
-    float: right;
-    padding-top: 25px;
+    padding-right: 20px;
     text-transform: uppercase;
+    list-style: none;
 }
 
-#nav_contact{
-    padding-right: 50px;
-    float: right;
-    padding-top: 25px;
-    text-transform: uppercase;
-}
 
 a {
     text-decoration: none;
