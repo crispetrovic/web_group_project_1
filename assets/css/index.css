@@ -200,8 +200,16 @@ p{
     color: #323232;
 }
 
+#addy>h3{
+    margin-top: 0px;
+
+}
+
 #addy_block{
-    display: inline;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    line-height: 2em;
 }
 
 #address{
@@ -209,9 +217,9 @@ p{
     font-weight: bold;
     font-size: 1em;
     color: #f26522;
-    display: inline-flex;
-
-
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2em;
 }
 
 .map{
