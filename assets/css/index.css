@@ -29,7 +29,6 @@ body {
     list-style: none;
 }
 
-
 a {
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
@@ -43,13 +42,14 @@ a {
 }
 
 
-h1{
+.main>h1,
+#biz_info>h1{
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
     font-size: 1.875em;
     color: #323232;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 80px;
 
 }
 
@@ -120,6 +120,7 @@ p{
 
 .cat_imgs{
     width: 870px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 80px;
@@ -199,21 +200,23 @@ p{
     color: #323232;
 }
 
+#addy_block{
+    display: inline;
+}
+
 #address{
     font-family: 'PT Serif', serif;
     font-weight: bold;
     font-size: 1em;
     color: #f26522;
-    text-align: center;
-}
+    display: inline-flex;
 
-#addy_div{
-    justify-content: center;
+
 }
 
 .map{
     height: auto;
-    width: 1250px;
+    width: 1260px;
 }
 
 footer{
