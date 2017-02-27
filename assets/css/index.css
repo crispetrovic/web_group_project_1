@@ -1,3 +1,6 @@
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+
 body {
   margin: 0;
   width: 100%;
@@ -89,7 +92,7 @@ p{
 }
 
 #left_box1{
-    margin-left: 250px;
+    margin-left: 225px;
     width: 300px;
     padding: 30px;
     order: 1;
@@ -99,7 +102,7 @@ p{
 }
 
 #right_box1{
-    margin-right: 250px;
+    margin-right: 225px;
     width: 300px;
     padding: 30px;
     order: 2;
@@ -172,7 +175,7 @@ p{
 
 #biz_hours{
     display: block;
-    margin-left: 250px;
+    margin-left: 225px;
     margin-bottom: 80px;
     width: 300px;
     padding: 30px;
@@ -184,7 +187,7 @@ p{
 
 #biz_contact{
     display: block;
-    margin-right: 250px;
+    margin-right: 225px;
     margin-bottom: 80px;
     width: 300px;
     padding: 30px;
@@ -242,10 +245,249 @@ footer>h1{
     text-align: center;
 }
 
+}
 /* On devices wider than 660px */
 @media(min-width: 660px) {
+
+
 }
 
-/* On devices wider than 940px */
-@media(min-width: 940px) {
+
+
+
+/* On devices smaller than 660px */
+@media(max-width: 375px){
+
+    body {
+      margin: 0;
+      width: 100%;
+    }
+    .nav{
+        display: inline;
+    }
+
+    #header{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5em;
+        color: #323232;
+        padding-top: 15px;
+
+    }
+
+    .menu{
+        display: none;
+
+    }
+
+    #nav_link{
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'PT Sans', sans-serif;
+        font-size: .9em;
+        color: #323232;
+    }
+
+    .splash{
+        height: auto;
+        max-width: 100%;
+    }
+
+
+    .main>h1,
+    #biz_info>h1{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        font-size: 1.875em;
+        color: #323232;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+    h2{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #00897f;
+        text-transform: uppercase;
+    }
+
+    h3{
+        font-family: 'PT Serif', serif;
+        font-size: 1em;
+        line-height: 2em;
+        color: #323232;
+    }
+
+    #summary{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    p{
+        font-family: 'PT Serif', serif;
+        font-size: .875em;
+        line-height: 1.75em;
+        color: #323232;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #left_box1{
+        width: 90%;
+        background-color: #eeeeee;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    #right_box1{
+        width: 90%;
+        background-color: #eeeeee;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxes_title{
+        text-align: center;
+
+    }
+
+    #circle_cats{
+        max-width: auto;
+        background-color: #ffffff;
+
+    }
+
+    .cat_imgs{
+        width: auto;
+        margin-top: 40px;
+        margin-left: 20%;
+        margin-right: auto;
+        padding-bottom: 40px;
+
+    }
+
+    .img-circle {
+        border-radius: 50%;
+
+    }
+
+     #circ_cat1{
+        display: none;
+
+    }
+
+    #circ_cat2{
+        display: none;
+
+    }
+
+
+    #biz_info{
+        background-color: #eeeeee;
+
+    }
+
+
+    .boxes_title2{
+        text-align: center;
+
+
+    }
+
+    #biz_info>h1{
+        display: none;
+
+    }
+
+
+    #biz_hours>h3>span{
+        font-family: 'PT Serif', serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        line-height: 2em;
+        color: #323232;
+    }
+
+    #biz_hours{
+        display: block;
+        margin-left: 20px;
+        width: 90%;
+        background-color: #eeeeee;
+        justify-content: flex-start;
+    }
+
+
+    #biz_contact{
+        display: block;
+        margin-left: 20px;
+        width: 90%;
+        background-color: #eeeeee;
+        justify-content: flex-start;
+    }
+
+    #biz_contact>h3>span{
+        font-family: 'PT Serif', serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        line-height: 2em;
+        color: #323232;
+    }
+
+    #addy>h3{
+        margin-top: 0px;
+
+    }
+
+    #addy_block{
+        display: inline-block;
+        vertical-align: top;
+        text-transform: uppercase;
+        line-height: 2em;
+    }
+
+    #address{
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        font-size: 1em;
+        color: #f26522;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 2em;
+    }
+
+    .map{
+        height: auto;
+        width: 100%;
+    }
+
+    footer{
+        background-color: #00897f;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+
+    footer>h1{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        font-size: 1.25em;
+        color: #eeeeee;
+        text-align: center;
+    }
+
+
 }
+
+/* On devies smaller than  ??? */
