@@ -1,5 +1,5 @@
-/* On devices wider than 940px */
-@media(min-width: 940px) {
+/* On devices wider than 1200px */
+@media(min-width: 1200px) {
 
 body {
   margin: 0;
@@ -115,6 +115,7 @@ p{
 }
 
 #circle_cats{
+    display: flex;
     max-width: 1260px;
     background-color: #ffffff;
     padding-top: 80px;
@@ -246,16 +247,355 @@ footer>h1{
 }
 
 }
-/* On devices wider than 660px */
-@media(min-width: 660px) {
+/********************************************************************************/
+/* On devices smaller than 1199px */
+@media(max-width: 1199px) {
+
+    body {
+      margin: 0;
+      width: 100%;
+    }
+
+    .nav{
+        display: inline;
+    }
+
+    #header{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #323232;
+        padding-left: 20px;
+        float: left;
+    }
+
+    .menu{
+        float: right;
+        padding-top: 25px;
+
+    }
+
+    #nav_link{
+        width: 100px;
+        display: inline;
+        padding-right: 20px;
+        text-transform: uppercase;
+        list-style: none;
+    }
+
+
+    a {
+        text-decoration: none;
+        font-family: 'PT Sans', sans-serif;
+        font-size: .9em;
+        color: #323232;
+    }
+
+    .splash{
+        height: auto;
+        max-width: 100%;
+    }
+
+
+    .main>h1,
+    #biz_info>h1{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        font-size: 1.875em;
+        color: #323232;
+        text-align: center;
+        margin-top: 80px;
+
+    }
+
+    h2{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #00897f;
+        text-transform: uppercase;
+    }
+
+    h3{
+        font-family: 'PT Serif', serif;
+        font-size: 1em;
+        line-height: 2em;
+        color: #323232;
+    }
+
+    #summary{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+
+    p{
+        font-family: 'PT Serif', serif;
+        font-size: .875em;
+        line-height: 1.75em;
+        color: #323232;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #left_box1{
+        width: 80%;
+        background-color: #eeeeee;
+        padding-left: 1.8%;
+        padding-right: 1.8%;
+
+    }
+
+    #right_box1{
+        width: 80%;
+        background-color: #eeeeee;
+        padding-left: 1.8%;
+        padding-right: 1.8%;
+    }
+
+    .boxes_title{
+        text-align: center;
+
+    }
+
+    #circle_cats{
+        display: flex;
+        max-width: auto;
+        background-color: #ffffff;
+
+    }
+
+    .cat_imgs{
+        width: 90%;
+        margin-top: 3.336%;
+        margin-left: 9%;
+        margin-right: auto;
+        padding-bottom: 3.336%;
+
+    }
+
+    .img-circle {
+        border-radius: 50%;
+        margin-right: 8%;
+
+    }
+
+
+    #biz_info{
+        background-color: #eeeeee;
+
+    }
+
+
+    .boxes_title2{
+        text-align: center;
+
+
+    }
+
+    #biz_info>h1{
+        display: none;
+
+    }
+
+
+    #biz_hours>h3>span{
+        font-family: 'PT Serif', serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        line-height: 2em;
+        color: #323232;
+    }
+
+    #biz_hours{
+        display: block;
+        margin-left: 20px;
+        width: auto;
+        background-color: #eeeeee;
+        justify-content: flex-start;
+    }
+
+
+    #biz_contact{
+        display: block;
+        margin-left: 20px;
+        width: auto;
+        background-color: #eeeeee;
+        justify-content: flex-start;
+    }
+
+    #biz_contact>h3>span{
+        font-family: 'PT Serif', serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        line-height: 2em;
+        color: #323232;
+    }
+
+    #addy>h3{
+        margin-top: 0px;
+
+    }
+
+    #addy_block{
+        display: inline-block;
+        vertical-align: top;
+        text-transform: uppercase;
+        line-height: 2em;
+    }
+
+    #address{
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        font-size: 1em;
+        color: #f26522;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 2em;
+    }
+
+    .map{
+        height: auto;
+        width: 100%;
+    }
+
+    footer{
+        background-color: #00897f;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+
+    footer>h1{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        font-size: 1.25em;
+        color: #eeeeee;
+        text-align: center;
+    }
+
+
+}
+/********************************************************************************/
+/* On devices smaller than 1120px */
+@media(max-width: 1120px){
+
+    .cat_imgs{
+        display: flex;
+        width: 75%;
+        margin-top: 3.336%;
+        margin-left: 20%;
+        margin-right: auto;
+        padding-bottom: 3.336%;
+
+    }
+
+    #circ_cat1{
+       display: none;
+
+   }
+
+   .img-circle {
+       border-radius: 50%;
+       margin-right: 15%;
+
+   }
 
 
 }
 
+/********************************************************************************/
+/* On devices smaller than 940px */
+@media(max-width: 940px) {
 
+    .cat_imgs{
+        display: flex;
+        width: 75%;
+        margin-top: 3.336%;
+        margin-left: 38%;
+        margin-right: auto;
+        padding-bottom: 3.336%;
 
+    }
 
+    #circ_cat1, #circ_cat2{
+       display: none;
+
+    }
+
+}
+/********************************************************************************/
 /* On devices smaller than 660px */
+@media(max-width: 660px){
+
+    .cat_imgs{
+        display: flex;
+        width: 75%;
+        margin-top: 3.336%;
+        margin-left: 34%;
+        margin-right: auto;
+        padding-bottom: 3.336%;
+
+    }
+
+     #circ_cat1, #circ_cat2{
+        display: none;
+
+    }
+
+}
+/********************************************************************************/
+/* On devices smaller than 470px */
+@media(max-width: 470px){
+
+    .nav{
+        display: inline;
+    }
+
+    #header{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5em;
+        color: #323232;
+        padding-top: 15px;
+
+    }
+
+    .menu{
+        display: none;
+
+    }
+
+    #nav_link{
+        display: none;
+    }
+
+
+    .cat_imgs{
+        display: flex;
+        width: 75%;
+        margin-top: 3.336%;
+        margin-left: 25%;
+        margin-right: auto;
+        padding-bottom: 3.336%;
+
+    }
+
+     #circ_cat1, #circ_cat2{
+        display: none;
+
+    }
+
+
+}
+
+/********************************************************************************/
+/* On devices smaller than 375px */
 @media(max-width: 375px){
 
     body {
